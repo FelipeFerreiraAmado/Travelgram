@@ -4,8 +4,28 @@ footer {
     padding-block: 24px;
 
     font: 14px/150% var(--font-family);
+
+    .terms {
+        display: flex;
+        gap: 1rem;
+    }
 }
 
 footer span:nth-child(1) {
     margin-right: auto;
+}
+
+@media (width <= 27em) {
+    
+    footer {
+        text-align: center;
+
+        & .terms {
+            display: block;
+
+            & span {
+                padding-inline: .5rem;
+            }
+        }
+    }
 }

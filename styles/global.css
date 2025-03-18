@@ -50,3 +50,15 @@ a:hover {
 .bg-surface-color {
     background-color: var(--surface-color);
 }
+
+@media (width <= 27em) {
+    .container {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        display: block;
+
+        width: min(27rem, 100% - 1rem * 2);
+        margin-inline: auto;
+    }
+}

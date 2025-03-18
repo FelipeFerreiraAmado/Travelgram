@@ -10,3 +10,17 @@ main img {
     height: 286px;
     object-fit: cover;
 }
+
+@media (width <= 27em) {
+    main.container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-block: 1rem;
+
+        img {
+            width: 328px;
+            height: auto;
+        }
+    }
+}
