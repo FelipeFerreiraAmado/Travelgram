@@ -35,7 +35,7 @@ O "Travelgram" é uma aplicação que permite a criação de um perfil de usuár
 
 ### Perfil de Viagens
 
-![Perfil de Viagens Travelgram](./travelgram_screenshot_1.webp )
+![Perfil de Viagens Travelgram](/assets/readme/Captura%20de%20tela%202025-08-19%20102537.png)
 
 ## 🔮 Melhorias Futuras
 
